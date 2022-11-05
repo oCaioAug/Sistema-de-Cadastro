@@ -55,6 +55,17 @@ public class Produto {
         this.tamanho = tamanho;
     }
     
+    public int getId() {
+        return this.id;
+    }
+
+    @Override
+    public String toString() {
+        return "Produto, " + "nome: " + nome + ", valor: " + valor + ", peso: " + peso + ", descricao: " + descricao + ", tamanho: " + tamanho;
+    }
+    
+    
+    
     //construtores
     public Produto() {
         id++;
