@@ -55,7 +55,7 @@ public class Produto {
         this.tamanho = tamanho;
     }
     
-    //construtores
+    
     public Produto() {}
 
     public Produto(String nome, double valor, double peso, String descricao, String tamanho) {
